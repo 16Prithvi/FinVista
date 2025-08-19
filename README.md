@@ -1,10 +1,10 @@
 ## FinVista
 
-This app was created using https://getmocha.com.
-Need help or want to join the community? Join our [Discord](https://discord.gg/shDEGBSe2d).
+  © 2025 FinVista. Made by Prithvi M Ganiger.
 
 To run the devserver:
 ```
 npm install
 npm run dev
 ```
+
