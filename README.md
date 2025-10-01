@@ -42,7 +42,7 @@ Discover and analyze the best mutual funds for your portfolio. This powerful too
 ### 🌴 Retirement Corpus Estimator
 Plan for a secure future with this comprehensive retirement calculator. It estimates the total corpus you'll need by factoring in current expenses, inflation, and life expectancy, then calculates the required monthly SIP to achieve your retirement goals.
 
-![Uploading image.png…]()
+<img width="749" height="824" alt="image" src="https://github.com/user-attachments/assets/3bbea829-b2f2-4774-81ed-bea9759f07d8" />
 
 ---
 
