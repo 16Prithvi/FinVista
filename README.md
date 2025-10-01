@@ -1,8 +1,10 @@
-## SIP Suite – Investment Calculators (React + Vite + Tailwind)
+# SIP Suite – Investment Calculators (React + Vite + Tailwind)
 
 An interactive collection of personal finance tools focused on Systematic Investment Plans (SIP) and related investment scenarios. Built with React 19, Vite 6, TypeScript, Tailwind CSS, and Recharts for visualizations. The app also includes a Cloudflare Worker (Hono) scaffold for future APIs and edge deployment.
 
-### Key Features
+---
+
+## Key Features
 - **SIP Calculator**: Estimate maturity value, total invested, and wealth gained with optional inflation adjustment.
 - **Lumpsum Calculator**: Compute compound growth for a one-time investment.
 - **Goal Planner**: Plan contributions needed to reach a target corpus.
@@ -15,61 +17,58 @@ All calculators present clean inputs, instant calculations, and charts using Rec
 
 ---
 
-### Overview 
-1)📈SIP Calculator
+## Overview
 
-SIP Calculator: Effortlessly calculate the future value of your monthly investments. This tool visualizes your wealth growth over time, showing the power of compound interest and helping you plan your Systematic Investment Plan (SIP) with precision.
+### 📈 SIP Calculator
+Effortlessly calculate the future value of your monthly investments. This tool visualizes your wealth growth over time, showing the power of compound interest and helping you plan your Systematic Investment Plan (SIP) with precision.
 
-![alt text](image.png)
+<img width="749" height="731" alt="image" src="https://github.com/user-attachments/assets/9e8a9754-4c10-4dd8-8221-2f606f13a3a5" />
 
-2)💰 Lumpsum Investment Calculator
+### 💰 Lumpsum Investment Calculator
+See how a one-time investment can grow. This calculator projects the total earnings and final value of your lumpsum amount, complete with a year-by-year comparison chart to track your investment's performance.
 
-Lumpsum Investment Calculator: See how a one-time investment can grow. This calculator projects the total earnings and final value of your lumpsum amount, complete with a year-by-year comparison chart to track your investment's performance.
+<img width="740" height="720" alt="image" src="https://github.com/user-attachments/assets/4237c968-8eab-4d21-a46c-b8bf95179968" />
 
-![alt text](image-1.png)
+### 🎯 Goal-Based Investment Planner
+Turn your financial dreams into reality. Define your target amount and time period, and this planner calculates the exact monthly SIP required to reach your goal. A progress bar and timeline keep you motivated and on track.
 
-3)🎯 Goal-Based Investment Planner
+<img width="745" height="778" alt="image" src="https://github.com/user-attachments/assets/6f31f827-c067-4cc6-a15b-f2514a8869d8" />
 
-Goal-Based Investment Planner: Turn your financial dreams into reality. Define your target amount and time period, and this planner calculates the exact monthly SIP required to reach your goal. A progress bar and timeline keep you motivated and on track
+### 🔍 Mutual Fund Explorer
+Discover and analyze the best mutual funds for your portfolio. This powerful tool allows you to filter funds by type and risk level, compare top performers, and view detailed metrics to make informed investment decisions.
 
-![alt text](image-2.png)
+<img width="552" height="748" alt="image" src="https://github.com/user-attachments/assets/2bd3fc58-7be5-47aa-bd33-a9304e6a2f11" />
 
-4)🔍 Mutual Fund Explorer
+### 🌴 Retirement Corpus Estimator
+Plan for a secure future with this comprehensive retirement calculator. It estimates the total corpus you'll need by factoring in current expenses, inflation, and life expectancy, then calculates the required monthly SIP to achieve your retirement goals.
 
-Mutual Fund Explorer: Discover and analyze the best mutual funds for your portfolio. This powerful tool allows you to filter funds by type and risk level, compare top performers, and view detailed metrics to make informed investment decisions.
+![Uploading image.png…]()
 
-![alt text](image-3.png)
-
-5)🌴 Retirement Corpus Estimator
-
-Retirement Corpus Estimator: Plan for a secure future with this comprehensive retirement calculator. It estimates the total corpus you'll need by factoring in current expenses, inflation, and life expectancy, then calculates the required monthly SIP to achieve your retirement goals.
-
-![alt text](image-4.png)
-
-
+---
 
 ## Project Structure
 
 ```text
-c:\Users\prith\Desktop\sip\
-  ├─ index.html
-  ├─ package.json
-  ├─ src\
-  │  ├─ react-app\
-  │  │  ├─ App.tsx
-  │  │  ├─ components\
-  │  │  ├─ pages\
-  │  │  ├─ main.tsx
-  │  │  └─ index.css
-  │  ├─ shared\
-  │  │  └─ types.ts
-  │  └─ worker\
-  │     └─ index.ts
-  ├─ tailwind.config.js
-  ├─ vite.config.ts
-  ├─ wrangler.jsonc
-  └─ tsconfig*.json
-```
+/
+├── index.html
+├── package.json
+├── src/
+│   ├── react-app/
+│   │   ├── App.tsx
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── shared/
+│   │   └── types.ts
+│   └── worker/
+│       └── index.ts
+├── tailwind.config.js
+├── vite.config.ts
+├── wrangler.jsonc
+└── tsconfig.*.json
+
+---
 
 ### Notable Files
 - `src/react-app/App.tsx`: Routes and top-level layout.
@@ -117,6 +116,7 @@ These are implemented with rounded display values and Recharts-based visualizati
 - **Edge/Backend scaffold**: Cloudflare Workers + Hono
 - **Linting**: ESLint (eslint@9, typescript-eslint)
 
+---
 
 
 ## Deployment
@@ -124,6 +124,7 @@ These are implemented with rounded display values and Recharts-based visualizati
 ### Static Frontend
 The frontend builds to a static bundle. You can deploy the `dist` folder to any static host (e.g., Cloudflare Pages, Netlify, Vercel, S3/CloudFront).
 
+---
 
 
 ### Cloudflare Workers (Edge)
