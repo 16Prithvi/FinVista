@@ -47,8 +47,7 @@ Plan for a secure future with this comprehensive retirement calculator. It estim
 ---
 
 ## Project Structure
-
-
+/
 ├── index.html
 ├── package.json
 ├── src/
