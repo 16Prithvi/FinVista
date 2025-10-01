@@ -47,7 +47,7 @@ Plan for a secure future with this comprehensive retirement calculator. It estim
 ---
 
 ## Project Structure
-```text
+```bash
 /
 ├── index.html
 ├── package.json
@@ -66,6 +66,7 @@ Plan for a secure future with this comprehensive retirement calculator. It estim
 ├── vite.config.ts
 ├── wrangler.jsonc
 └── tsconfig.*.json
+```
 
 ---
 
